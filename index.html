@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/Avatar.png" alt="Foto de Denivaldo Junior" />
+        <p>@garciaajr</p>
+      </div>
+      <div>
+        <div id="switch">
+          <button onclick="toggleMode()"></button>
+          <span></span>
+        </div>
+      </div>
+      <ul class="list-item">
+        <li>
+          <a href="#" target="_blank">Linkedin</a>
+        </li>
+
+        <li>
+          <a href="https://github.com/garcia-jr" target="_blank">GitHub</a>
+        </li>
+      </ul>
+
+      <div id="social-links">
+        <ion-icon name="logo-html5">html</ion-icon>
+        <ion-icon name="logo-css3"></ion-icon>
+        <ion-icon name="logo-javascript"></ion-icon>
+      </div>
+
+      <footer>
+        <p>
+          <ion-icon name="code-outline"></ion-icon>
+          Desenvolvido por <a href="">Junior Garcia </a>
+          <ion-icon id="icon-rocket" name="rocket-outline"></ion-icon>
+          <ion-icon name="desktop-outline"></ion-icon>
+          <ion-icon name="code-slash-outline"></ion-icon>
+        </p>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
